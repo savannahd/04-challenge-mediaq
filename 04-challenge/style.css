@@ -1,0 +1,90 @@
+header {
+    background-color: yellow;
+    height: 5rem;
+}
+
+#one {
+    background-color: lightgreen;
+}
+
+#two {
+    background-color: magenta;
+}
+
+#three {
+    background-color: cyan;
+}
+
+footer {
+    background-color: yellow;
+    height: 5rem;
+}
+
+body {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 800px) {
+    #one {
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        flex-wrap: wrap;
+        
+    }
+
+    #two {
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        flex-wrap: wrap;
+        
+    }
+
+    #three {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    section {
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #one {
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #two {
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #three {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
